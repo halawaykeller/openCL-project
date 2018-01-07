@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/khaleesi/Desktop/c-project/main.cpp
+iostream
+-
+stdio.h
+-
+opencl.h
+-
+com_err.h
+-
+memory.h
+-
+cmath
+-
+
+/Users/khaleesi/Desktop/openCl/opencl.h
+OpenCL/cl.h
+-
+OpenCL/cl_gl.h
+-
+OpenCL/cl_gl_ext.h
+-
+OpenCL/cl_ext.h
+-
+CL/cl.h
+-
+CL/cl_gl.h
+-
+CL/cl_gl_ext.h
+-
+CL/cl_ext.h
+-
+
