@@ -1,24 +1,22 @@
 __kernel void hello(__global char* string)
 {
-    __local myBuffer[100];
 
     int idx;
-//    idx = get_global_id(0);
-//    myBuffer[idx] = idx;
+    idx = get_global_id(0);
+
+    string[idx] = 2;
+
+
+//    for( idx = 0; idx < 100; idx++)
+//    {
+//        string[idx] = idx;
+//        myBuffer[idx] = idx*2;
+//    }
 //
-//    string[idx] = idx*2;
-
-
-    for( idx = 0; idx < 100; idx++)
-    {
-        string[idx] = idx;
-        myBuffer[idx] = idx*2;
-    }
-
-    for( idx = 0; idx < 100; idx++)
-    {
-        string[idx] += myBuffer[idx];
-    }
+//    for( idx = 0; idx < 100; idx++)
+//    {
+//        string[idx] += myBuffer[idx];
+//    }
 
 
 

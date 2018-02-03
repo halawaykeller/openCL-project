@@ -96,6 +96,7 @@ int main()
     cl_uint ret_num_devices;
     cl_uint ret_num_platforms;
     cl_int ret;
+    size_t mem_size = 50;
 
     char string[MEM_SIZE];
 
@@ -146,7 +147,8 @@ int main()
 
     fprintf( debug, "got to 5\n");
 /* Execute OpenCL Kernel */
-    ret = clEnqueueTask(command_queue, kernel, 0, NULL,NULL);
+//    ret = clEnqueueTask(command_queue, kernel, 0, NULL,NULL);
+    ret = clEnqueueNDRangeKernel(command_queue, kernel, 1, 0, &mem_size, &mem_size, 0, NULL, NULL);
 
 /* Copy results from the memory buffer */
     ret = clEnqueueReadBuffer(command_queue, memobj, CL_TRUE, 0,
