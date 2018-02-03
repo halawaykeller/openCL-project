@@ -28,6 +28,6 @@ set(SOURCE_FILES
 
 include_directories(/Users/khaleesi/Desktop/openCl/)
 link_directories(/System/Library/Frameworks/OpenCL.framework/Libraries/)
-add_executable (c_project main.cpp)
+add_executable (c_project cookbook_test.cpp)
 #target_include_directories (c_project PUBLIC ${CMAKE_CURRENT_SOURCE_DIR})
 target_link_libraries (c_project /System/Library/Frameworks/OpenCL.framework/OpenCL)

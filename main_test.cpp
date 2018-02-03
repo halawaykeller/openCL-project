@@ -74,7 +74,13 @@ int main()
                               MEM_SIZE * sizeof(char),string, 0, NULL, NULL);
 
 /* Display Result */
-    puts(string);
+    FILE* debug = fopen("debug.out", "w");
+    int i;
+    for( i = 0; i<100; i++)
+    {
+        fprintf(debug, "%d\n", string[i]);
+    }
+    fclose(debug);
 
 /* Finalization */
     ret = clFlush(command_queue);

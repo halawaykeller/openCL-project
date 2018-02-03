@@ -123,32 +123,32 @@ c_project/fast:
 	$(MAKE) -f CMakeFiles/c_project.dir/build.make CMakeFiles/c_project.dir/build
 .PHONY : c_project/fast
 
-main.o: main.cpp.o
+cookbook_test.o: cookbook_test.cpp.o
 
-.PHONY : main.o
+.PHONY : cookbook_test.o
 
 # target to build an object file
-main.cpp.o:
-	$(MAKE) -f CMakeFiles/c_project.dir/build.make CMakeFiles/c_project.dir/main.cpp.o
-.PHONY : main.cpp.o
+cookbook_test.cpp.o:
+	$(MAKE) -f CMakeFiles/c_project.dir/build.make CMakeFiles/c_project.dir/cookbook_test.cpp.o
+.PHONY : cookbook_test.cpp.o
 
-main.i: main.cpp.i
+cookbook_test.i: cookbook_test.cpp.i
 
-.PHONY : main.i
+.PHONY : cookbook_test.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) -f CMakeFiles/c_project.dir/build.make CMakeFiles/c_project.dir/main.cpp.i
-.PHONY : main.cpp.i
+cookbook_test.cpp.i:
+	$(MAKE) -f CMakeFiles/c_project.dir/build.make CMakeFiles/c_project.dir/cookbook_test.cpp.i
+.PHONY : cookbook_test.cpp.i
 
-main.s: main.cpp.s
+cookbook_test.s: cookbook_test.cpp.s
 
-.PHONY : main.s
+.PHONY : cookbook_test.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) -f CMakeFiles/c_project.dir/build.make CMakeFiles/c_project.dir/main.cpp.s
-.PHONY : main.cpp.s
+cookbook_test.cpp.s:
+	$(MAKE) -f CMakeFiles/c_project.dir/build.make CMakeFiles/c_project.dir/cookbook_test.cpp.s
+.PHONY : cookbook_test.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... c_project"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... cookbook_test.o"
+	@echo "... cookbook_test.i"
+	@echo "... cookbook_test.s"
 .PHONY : help
 
 

@@ -86,7 +86,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/khaleesi/Desktop/c-project/main.cpp">
+		<Unit filename="/Users/khaleesi/Desktop/c-project/cookbook_test.cpp">
 			<Option target="c_project"/>
 		</Unit>
 		<Unit filename="/Users/khaleesi/Desktop/c-project/CMakeLists.txt">

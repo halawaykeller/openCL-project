@@ -1,16 +1,11 @@
-build_log:  
-
-src_a_d  0x7fd823e20b10    src_b_d  0x7fd823e20cd0   res_d  0x7fd823e20e70
-
-  0.0000    0.0000    0.0000
-  0.0000    1.0000    1.0000
-  0.0000    2.0000    2.0000
-  0.0000    3.0000    3.0000
-  0.0000    4.0000    4.0000
-  0.0000    5.0000    5.0000
-  0.0000    6.0000    6.0000
-  0.0000    7.0000    7.0000
-  0.0000    8.0000    8.0000
-  0.0000    9.0000    9.0000
-  0.0000   10.0000   10.0000
-  0.0000   11.0000   11.0000
+Number of OpenCL platforms found: 1
+clGetPlatformInfo(): 13
+CL_PLATFORM_PROFILE: FULL_PROFILE
+clGetPlatformInfo(): 34
+CL_PLATFORM_VERSION: OpenCL 1.2 (May 10 2015 19:38:45)
+clGetPlatformInfo(): 6
+CL_PLATFORM_NAME: Apple
+clGetPlatformInfo(): 6
+CL_PLATFORM_VENDOR: Apple
+clGetPlatformInfo(): 143
+CL_PLATFORM_EXTENSIONS: cl_APPLE_SetMemObjectDestructor cl_APPLE_ContextLoggingFunctions cl_APPLE_clut cl_APPLE_query_kernel_names cl_APPLE_gl_sharing cl_khr_gl_event
