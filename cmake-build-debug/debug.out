@@ -1,117 +1,22 @@
 Number of OpenCL platforms found: 1
-clGetPlatformInfo(): 13
 CL_PLATFORM_PROFILE: FULL_PROFILE
-clGetPlatformInfo(): 34
 CL_PLATFORM_VERSION: OpenCL 1.2 (May 10 2015 19:38:45)
-clGetPlatformInfo(): 6
 CL_PLATFORM_NAME: Apple
-clGetPlatformInfo(): 6
 CL_PLATFORM_VENDOR: Apple
-clGetPlatformInfo(): 143
 CL_PLATFORM_EXTENSIONS: cl_APPLE_SetMemObjectDestructor cl_APPLE_ContextLoggingFunctions cl_APPLE_clut cl_APPLE_query_kernel_names cl_APPLE_gl_sharing cl_khr_gl_event
-got to 1
-got to 2
-got to 3
-got to 4
-got to 5
-got to 6
-2
-2
-2
-2
-2
-2
-2
-2
-2
-2
-2
-2
-2
-2
-2
-2
-2
-2
-2
-2
-2
-2
-2
-2
-2
-2
-2
-2
-2
-2
-2
-2
-2
-2
-2
-2
-2
-2
-2
-2
-2
-2
-2
-2
-2
-2
-2
-2
-2
-2
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
+0.000000
+1.000000
+2.000000
+3.000000
+4.000000
+5.000000
+6.000000
+7.000000
+8.000000
+9.000000
+10.000000
+11.000000
+12.000000
+13.000000
+14.000000
+15.000000
